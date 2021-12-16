@@ -1,0 +1,361 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	header li a{
+		text-decoration:none !important;
+		color:inherit;
+	}
+
+	header{
+		font-family: helvetica;
+		font-size: 20px;
+		background-color: #52d847;
+		padding-bottom: 1px;
+		padding-top: 5px;
+		width:100%;
+	}
+	header ul li{
+			margin-left: 30px;
+			color: white;
+			display: inline-block;
+	}
+	header ul li:hover, header ul li a:hover{
+		color: #dee2df;
+		cursor: pointer;
+	}
+	header ul li:active{
+		color: #aeafae;
+	}
+	header ul li input{
+		width: 650px;
+		height: 40px;
+		font-size: 20px;
+		padding-left:50px;
+		border-radius: 8px;
+		border: none;
+	}
+	.brand{
+		position: relative;
+		top: -6px;
+		height:60px;
+	}
+	.category{
+		padding-top: 5px;
+		background-color:#444334;
+		color: white;
+		font-size: 17px;
+		font-family: helvetica;
+	}
+	.category ul li {
+		display: inline-block;
+		margin-left: 100px;
+		padding:1px 10px 8px 10px;
+		transition-duration: 100ms;
+		transition-timing-function: ease-in;
+		transition-delay: 10ms; 
+	}
+	.category ul li:hover{
+		/*padding: 0 10px;*/
+		border-bottom: 3px solid #5f89f4;
+		padding-bottom: 5px;
+		cursor: pointer;
+	}
+	.category-bar{
+		text-align: center;
+	}
+	.category-bar >div{
+		display: inline-block;
+		margin:10px;
+		color: #fff;
+		/*border:2px solid;*/
+		border-radius: 20px;
+		background-color:#52d847;
+		height:130px;
+		width:200px;
+		padding: 20px;
+		transition-delay: 10ms;
+		transition-timing-function: linear;
+		transition-duration: 300ms;
+	}
+	.category-bar> div> div{
+		font-family: helvetica;
+		font-size:22px;
+	}
+	.category-bar>div:hover{
+		color: #fff;
+		background-color: #444334;
+		box-shadow: 0 0 15px 3px grey;
+		cursor: pointer;
+	}
+	.category-bar>div:active{
+		box-shadow: 0 0 15px 8px grey;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+/*Navbar CSS starts*/
+	nav>div > ul > li > a{
+		color: white;
+	}
+
+	nav ul li a:hover{
+		color: green;
+		text-decoration: none;
+	}
+
+	.bg-mycolor{
+		background-color:#514d40;
+		box-shadow:0px 5px 5px 0px #aaa;
+	}
+	.nav-link{
+		width:0%;
+		transition:width 400ms ease;
+	}
+	.nav-link:hover{
+		width:100%;
+		padding-bottom:5px !important;
+		border-bottom:3px solid #52d847;
+		color: #52d847;
+	}
+
+	.dropdown:hover> .dropdown-menu{
+		display:block;
+	}
+
+	.dropdown-menu{
+		width:250px;
+		padding-left:15px;
+
+	}
+
+	.dropdown-menu img{
+		position: relative;
+		right:20px;
+		top:20px;
+	}
+
+/*Navbar CSS Ends*/
+
+
+/*carousel CSS Starts*/
+
+.carousel-item img{
+	height:400px !important;
+	width:100%;
+}
+
+/*Carousel CSS Ends*/
+
+/*popular section CSS starts*/
+
+	.book-item{
+		margin: 3px;
+		margin-top: 15px;
+		display: inline-block;
+		/*border: 2px solid #52d847;*/
+		border-radius: 10px;
+		padding: 20px;
+		background-color: #fff;
+		transition: all 200ms ease;
+	}
+	.book-item:hover{
+		transform: scale(1.07);
+		cursor: pointer;
+	}
+	.book-item> img{
+		height: 200px;
+	}
+
+
+
+/*Admin Page CSS starts*/
+	#admin_submenu{
+		background-color:#42ebf4;
+	}
+	#admin_submenu ul{
+		list-style-type:none;
+
+	}
+
+	#admin_submenu ul li{
+		padding:10px; 
+		margin-top:40px;
+		border-bottom:2px solid white;
+
+	}
+	#admin_submenu ul li:hover{
+		
+		cursor:pointer;
+		font-size:1.1rem;
+		
+	}
+
+       #admin_content_panel{
+		margin:8px;
+		margin-bottom: 35px;
+		box-shadow: 0 0 10px 1px #90bc8b;
+		margin-top: 20px;
+		padding: 5px;
+		text-align: center;
+		background-color: #e9f7e8;
+	}
+
+
+/*Admin Page CSS ends*/
+
+
+/*Card Css Starts*/
+
+	.card-box{
+		background-color:#ededed !important;
+		border-top-right-radius: 8px;
+		border-top-left-radius: 8px;
+		margin-top:-8px;
+	}
+	.card-head{
+		color: #555;
+	}
+	.card-item{
+		width: 300px;
+		height: 320px;
+		padding: 7px;
+		display: inline-block;
+		transition: all 800ms;
+		margin-left:8px;
+		margin-bottom:15px;
+		background-color:#fff;
+
+	}
+	.item-image{
+		text-align: center;
+		height: 220px;
+		margin-top: 10px;
+	}
+	.card-item img{
+		/*width: 180px;*/
+		height: 200px;
+		transition: all 0.7s;
+	}
+	.card-item:hover  .item-image>img{
+		transform: scale(0.95);
+		/*filter: brightness(0.8);*/
+	}
+	.card-item:hover{
+		box-shadow: 0 0 20px 1px #96adff;
+		cursor:pointer;
+	}
+	.item-price{
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration:line-through;
+	}
+ .initial-price{
+ 	text-decoration:line-through;
+ 	color:#aaa;
+ }
+ #left-arrow-kitaabwala:hover{
+ 	cursor:pointer;
+ 	color:#06a5a5;
+ }
+ #right-arrow-kitaabwala:hover{
+ 	cursor:pointer;
+ 	color:#06a5a5;
+ }
+/*Card CSS ends*/
+
+
+
+   .product_back{
+			/*height: 90vh;*/
+			width: 100%;
+			background-color: #fff;
+			padding-bottom: 50px;
+			padding-top: 30px;
+		}
+		.product_img>img{
+			margin-left: 40px;
+			width: 300px;
+			box-shadow: 0 0 15px 7px #caccc9;
+		}
+		.add-to-cart{
+			display: inline-block;
+			margin-left: 40px;
+			margin-top: 20px;
+			background-color: #5ebfe5;
+			color: white;
+			outline: none;
+			border:none;
+			padding: 10px 25px;
+			border-radius: 5px;
+			box-shadow: 0 0 15px 5px #caccc9;
+		}
+		.add-to-cart:hover{
+			background-color:#52a7c9;
+			cursor:pointer;
+			box-shadow: 0 10px 15px 5px #caccc9;
+
+		}
+		.buy-now{
+			display: inline-block;
+			margin-left: 10px;
+			margin-top: 20px;
+			background-color: #5ae271;
+			color: white;
+			outline: none;
+			border-radius: 5px;
+			border:none;
+			padding: 10px 47px;
+			box-shadow: 0 0 15px 5px #caccc9;
+		}
+		.buy-now:hover{
+			background-color:#45b759;
+			cursor:pointer;
+			box-shadow: 0 10px 15px 5px #caccc9;
+
+		}
+		.product_description{
+			width: 500px;
+			/*border-radius: 10px;*/
+			/*border-left:3px dashed white;*/
+			margin-left: 30px;
+		}
+		.book-title{
+			font-size:42px;
+			color: #761da3;
+		}
+		.book-author{
+			font-size: 30px;
+			color:#abdb6f;
+		}
+		.book-price{
+			font-size: 30px;
+			color: #abdb6f;
+		}
+
+
+
+
+/*Footer CSS starts*/
+	footer{
+		padding: 40px;
+		line-height: 50px;
+		background-color: grey;
+		/*text-align: center;*/
+		list-style:none;
+		color: white;
+	}
+
+	footer li:hover{
+		cursor:pointer;
+	}
+/*Footer CSS ends*/
